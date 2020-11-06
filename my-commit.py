@@ -8,9 +8,9 @@ def main ():
                 my_str = "bug"
                 if lines[0].lower().find("bug")== 0:
                         print("Keyword found")
+                        sys.exit(0)
                 else:
                         print("Keyword NOT found")
-        sys.exit(1)
-
+                        sys.exit(1)
 if __name__=="__main__":
         main()
